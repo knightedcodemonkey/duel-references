@@ -1,0 +1,26 @@
+{
+  "name": "project-refs",
+  "version": "0.0.0",
+  "private": true,
+  "type": "module",
+  "workspaces": [
+    "packages/*"
+  ],
+  "dependencies": {
+    "@knighted/duel": "file:../duel/knighted-duel-4.0.0-rc.0.tgz",
+    "hoisted": "0.0.0"
+  },
+  "devDependencies": {
+    "@types/node": "^22.7.4",
+    "typescript": "^5.7.2"
+  },
+  "scripts": {
+    "build": "npm run build --workspaces",
+    "duel:lib": "duel -p packages/lib/tsconfig.json --mode globals",
+    "duel:app": "duel -p packages/app/tsconfig.json --mode globals",
+    "duel:chain": "duel -p packages/chain-a/tsconfig.json --mode globals",
+    "duel:custom": "duel -p packages/custom-app/tsconfig.json --mode globals",
+    "run:app": "node packages/app/dist/index.js",
+    "run:custom": "node packages/custom-app/dist/index.js"
+  }
+}

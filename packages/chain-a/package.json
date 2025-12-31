@@ -1,0 +1,11 @@
+{
+  "name": "chain-a",
+  "version": "0.0.0",
+  "type": "module",
+  "dependencies": {
+    "chain-b": "0.0.0"
+  },
+  "scripts": {
+    "build": "tsc -b"
+  }
+}

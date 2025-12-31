@@ -1,0 +1,10 @@
+{
+  "name": "hoisted",
+  "version": "0.0.0",
+  "type": "module",
+  "main": "./index.js",
+  "types": "./index.d.ts",
+  "scripts": {
+    "build": "echo 'no build needed'"
+  }
+}
