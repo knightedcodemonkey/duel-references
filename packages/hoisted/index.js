@@ -1,1 +1,1 @@
-export const hoistedVal = 'hoisted'
+export const hoistedVal = 'hoisted';

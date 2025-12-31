@@ -1,3 +1,3 @@
-import { custom } from 'custom-lib'
+import { custom } from 'custom-lib';
 
-export const value = `${custom}-app`
+export const value = `${custom}-app`;

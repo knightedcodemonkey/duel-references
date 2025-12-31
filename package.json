@@ -12,7 +12,8 @@
   },
   "devDependencies": {
     "@types/node": "^22.7.4",
-    "typescript": "^5.7.2"
+    "prettier": "^3.7.4",
+    "typescript": "^5.9.3"
   },
   "scripts": {
     "build": "npm run build --workspaces",
@@ -21,6 +22,14 @@
     "duel:chain": "duel -p packages/chain-a/tsconfig.json --mode globals",
     "duel:custom": "duel -p packages/custom-app/tsconfig.json --mode globals",
     "run:app": "node packages/app/dist/index.js",
-    "run:custom": "node packages/custom-app/dist/index.js"
+    "run:custom": "node packages/custom-app/dist/index.js",
+    "prettier": "prettier --write ."
+  },
+  "prettier": {
+    "semi": true,
+    "singleQuote": true,
+    "trailingComma": "all",
+    "printWidth": 90,
+    "tabWidth": 2
   }
 }

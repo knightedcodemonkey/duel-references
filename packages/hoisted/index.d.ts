@@ -1,1 +1,1 @@
-export const hoistedVal: string
+export const hoistedVal: string;

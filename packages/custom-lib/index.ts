@@ -1,1 +1,1 @@
-export { custom } from './src/index.js'
+export { custom } from './src/index.js';

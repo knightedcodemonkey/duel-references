@@ -1,1 +1,1 @@
-export declare const c: number
+export declare const c: number;
