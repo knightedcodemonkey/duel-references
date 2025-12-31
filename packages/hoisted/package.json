@@ -2,9 +2,10 @@
   "name": "hoisted",
   "version": "0.0.0",
   "type": "module",
-  "main": "./index.js",
-  "types": "./index.d.ts",
+  "main": "./dist/index.js",
+  "types": "./dist/index.d.ts",
   "scripts": {
-    "build": "echo 'no build needed'"
+    "build": "tsc -b",
+    "typecheck": "tsc -b"
   }
 }

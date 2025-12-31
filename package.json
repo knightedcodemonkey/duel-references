@@ -12,6 +12,7 @@
   },
   "devDependencies": {
     "@types/node": "^22.7.4",
+    "oxlint": "^1.36.0",
     "prettier": "^3.7.4",
     "typescript": "^5.9.3"
   },
@@ -23,7 +24,10 @@
     "duel:custom": "duel -p packages/custom-app/tsconfig.json --mode globals",
     "run:app": "node packages/app/dist/index.js",
     "run:custom": "node packages/custom-app/dist/index.js",
-    "prettier": "prettier --write ."
+    "prettier": "prettier --write .",
+    "lint": "oxlint",
+    "typecheck": "tsc -b",
+    "typecheck:workspaces": "npm --workspaces --if-present run typecheck"
   },
   "prettier": {
     "semi": true,
