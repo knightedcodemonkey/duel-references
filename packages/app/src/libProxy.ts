@@ -1,6 +1,6 @@
 import { createRequire } from 'node:module';
 import { fileURLToPath } from 'node:url';
-import { basename, dirname, resolve } from 'node:path';
+import { dirname, resolve } from 'node:path';
 
 const req = createRequire(import.meta.url);
 const from = dirname(fileURLToPath(import.meta.url));

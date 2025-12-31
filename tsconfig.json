@@ -1,0 +1,13 @@
+{
+  "files": [],
+  "references": [
+    { "path": "packages/lib/tsconfig.json" },
+    { "path": "packages/app/tsconfig.json" },
+    { "path": "packages/chain-a/tsconfig.json" },
+    { "path": "packages/chain-b/tsconfig.json" },
+    { "path": "packages/chain-c/tsconfig.json" },
+    { "path": "packages/custom-lib/tsconfig.build.json" },
+    { "path": "packages/custom-app/tsconfig.json" },
+    { "path": "packages/hoisted/tsconfig.json" }
+  ]
+}
